@@ -23,6 +23,7 @@ Created dataframes for gold, silver, and bronze medals
 Sorted the data by each country
 Counted the number of gold, silver, and bronze medals each country had using the groupby function
 Created a dataframe called 'medal_df' to show the total amounts of each medal
+Then created a schema using postgres 
 
 Analysis
 We wanted to see if countries with a higher GDP performed better than the ones that had a lower GDP. We were surprised to find that the countries with a lower GDP actually out performed the countries with a higher GDP.
