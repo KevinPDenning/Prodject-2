@@ -35,5 +35,12 @@ Sorted the bronze medals by country in alphabetical order
 Sorted the gold medals by country from greatest to least
 Sorted the silver and bronze medals by country in alphabetical order again for further analysis.
 
+Creation of Database
+Server connection link is:
+public.olympics/olympics_db/postgres@PostgreSQL 15
+Exported our merged dataframe as a csv to use in creation of database. 
+Created columns to match the csv and uploaded csv to Olympics table in database.
+Ran a select * from to make sure all data was successfully uploaded into database.
+
 Conclusion
 The analysis of the Summer and Winter Olympics data shows that countries with lower GDPs outperform those with higher GDPs in terms of medal count. Further analysis and research is needed to understand the reasons behind this correlation.
