@@ -1,4 +1,4 @@
-Project-2: Summer and Winter Olympics Analysis
+Project-2: Summer and Winter Olympics Analysis 
 #Dependencies
 pandas
 numpy
