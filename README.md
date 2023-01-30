@@ -1,16 +1,16 @@
 Project-2: Summer and Winter Olympics Analysis
-Dependencies
+#Dependencies
 pandas
 numpy
 matplotlib.pyplot
 csv
 
-Data
+#Data
 Summer Olympics CSV
 Winter Olympics CSV
 Medal Data Dictionary CSV
 
-Data Processing
+#Data Processing
 Imported the necessary dependencies
 Created a file path to import the data from the summer olympics, winter olympsics, and the medal data dictionary
 Turned the summer and winter Olympics CSV into dataframes
@@ -24,13 +24,14 @@ Counted the number of gold, silver, and bronze medals each country had using the
 Created a dataframe called 'medal_df' to show the total amounts of each medal
 Analysis
 We wanted to see if countries with a higher GDP performed better than the ones that had a lower GDP. We were surprised to find that the countries with a lower GDP actually out performed the countries with a higher GDP.
+Then created a schema by uploading the data to postgres
 
-Sorting
+#Sorting
 Sorted the GDP values from least to greatest
 Sorted the silver medals by country in alphabetical order
 Sorted the bronze medals by country in alphabetical order
 Sorted the gold medals by country from greatest to least
 Sorted the silver and bronze medals by country in alphabetical order again for further analysis.
 
-Conclusion
+#Conclusion
 The analysis of the Summer and Winter Olympics data shows that countries with lower GDPs outperform those with higher GDPs in terms of medal count. Further analysis and research is needed to understand the reasons behind this correlation.
